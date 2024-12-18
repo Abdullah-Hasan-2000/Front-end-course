@@ -1,0 +1,12 @@
+input.searchbar {
+    border-radius: 25px;
+    padding: 15px;
+}
+
+input.button {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
