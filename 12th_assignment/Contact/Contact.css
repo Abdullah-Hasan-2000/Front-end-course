@@ -1,0 +1,61 @@
+.header {
+    background-color: rgb(11, 56, 102);
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+
+.navbar {
+    background-color: rgb(18, 0, 102);
+    color: white;
+    width: 100%;
+    text-align: center;
+    
+    
+    padding: 0px 0px;
+}
+
+.nav > td {
+    padding: 0;
+    width: 10%;
+    border: none;
+}
+
+.nav > td button.general {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(18, 0, 102);
+    color: white;
+    border: none;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.HomePage {
+    background-color: rgb(21, 111, 199);
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    border: none;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav > td button:hover {
+    background-color: rgb(21, 111, 199);
+}
+
+.FastFoodHeading {
+    background-color: rgb(197, 197, 252);
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+}

@@ -1,0 +1,165 @@
+.header {
+    background-color: rgb(11, 56, 102);
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+
+.navbar {
+    background-color: rgb(18, 0, 102);
+    color: white;
+    width: 100%;
+    text-align: center;
+    
+    
+    padding: 0px 0px;
+}
+
+.nav > td {
+    padding: 0;
+    width: 10%;
+    border: none;
+}
+
+.nav > td button.general {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(18, 0, 102);
+    color: white;
+    border: none;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.HomePage {
+    background-color: rgb(21, 111, 199);
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    border: none;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav > td button:hover {
+    background-color: rgb(21, 111, 199);
+}
+
+.FastFoodHeading {
+    background-color: rgb(197, 197, 252);
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.FastFood {
+    border-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10% ;
+}
+
+.FastFood td {
+    padding: 0;
+    width: 500px;
+}
+
+.FastFood button {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(11, 56, 102);
+    color: white;
+    border: none;
+    font-size: 150%;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.FastFood button:hover {
+    background-color: rgb(21, 111, 199);
+}
+
+.BurgersHeading {
+    background-color: rgb(197, 197, 252);
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.cards {
+    text-align: center;
+    
+}
+
+.card {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: 10px;
+    width: 250px;
+    height: 420px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.cardcontent{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.cardcontent h1 {
+    font-size: 90%;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.original {
+    text-decoration: line-through;
+}
+
+.discount {
+    text-decoration: underline;
+}
+
+.cardbutton {
+    background-color: rgb(11, 56, 102);
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.cardbutton:hover {
+    background-color: rgb(21, 111, 199);
+}
+
+ul {
+    line-height: 40px;
+    font-weight: bold;
+}
+
+li > span {
+    text-decoration: line-through;
+}
+
+span + span {
+    text-decoration: underline;
+}
