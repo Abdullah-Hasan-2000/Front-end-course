@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+/* navbar layour start */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px 8px 30px;
+    background-color: #F7F7F7;
+    box-shadow: 5px 0 5px grey;
+}
+
+.logo {
+    width: 20%;
+    
+}
+
+.logo > img {
+    width: 70%;
+    height: 70%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    text-decoration: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: grey;
+    padding: 20px;
+}
+
+.nav-links a:last-child {
+    color: black;
+}
+
+.nav-links a>span {
+    text-transform: uppercase;
+}
+
+/* navbar layour end */
+
+/* form layour start */
+
+.form-container {
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 5px grey;
+    width: 70%;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    color: #006838 ;
+    font-size: 30px;
+}
+
+.aligning {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+
+}
+
+.aligning-columns {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.above-part {
+    display: flex;
+    justify-content: space-between;
+    height: 420px;
+    padding: 0 20px 0 20px;
+    
+}
+
+.bottom-part {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 0 40px;
+}
+
+.bottom-fields {
+    padding: 20px 0 20px 0;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+  }
+
+.above-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 300px;
+    padding: 0 20px 0 20px;
+
+}
+
+.aligning-fields>div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    
+}
+
+.aligning-fields label{
+    display: inline-block;
+    color: #676774;
+    font-weight: bold;
+}
+
+.aligning-fields span {
+    color: red;
+}
+
+.field-select-input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #006838;
+    padding: 0 0 5px 5px
+}
+
+.field-select-input:focus {
+    outline: none;
+}
+
+.file-button {
+    display: inline-block;
+    width: 65%;
+    border: 1px dotted #006838;
+    padding: 18px 0 18px 25px;
+}
+
+.file-button button {
+    padding: 10px;
+    background-color: #006838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+.file-button span {
+    margin-left: 5px;
+    color: #676774;
+    font-size: 15px;
+}
+
+.submit-button {
+    margin: auto;
+}
+
+.submit-button button {
+    padding: 15px 100px;
+    border: none;
+    background-color: #006838;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* form layour end */
