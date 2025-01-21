@@ -1,0 +1,157 @@
+@font-face {
+    font-family: poppins-bold;
+    src: url(../Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url(../Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(../Fonts/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-transform: capitalize;
+    font-family: poppins-bold;
+}
+
+.background-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #00A365 40%, white 40%);
+    padding: 40px 0px 40px 40px;
+    height: 50vh;
+    width: 80vh;
+    margin: 5% auto;
+    box-shadow: 0 0 5px black;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.landing-page-info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+
+.landing-page-info h1 {
+    color: white;
+    width: 50%;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.landing-page-info p {
+    color: white;
+    width: 100%;
+    font-size: 26px;
+    font-weight: 100;
+    font-family: poppins-medium;
+}
+
+.landing-page-info>div {
+    width: 100%;
+}
+
+.landing-page-info>div>button {
+    width: 40%;
+    height: 60px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    
+}
+
+.landing-page-info>div>button:hover {
+    background-color: #007146;
+}
+
+.landing-page-info>div>button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.form-details {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    width: 50%;
+    margin-top: 40px;
+    font-family: poppins-regular;
+}
+
+.sign-up-heading h1{
+    font-size: 32px;
+    color: grey;
+}
+
+.form-elements {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.form-elements>p {
+    color: grey;
+}
+
+.form-elements>p>span {
+    color: red;
+}
+
+.form-elements>div {
+    width: 100%;
+    
+}
+
+.form-elements>button {
+    width: 86%;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 1px solid #00A365;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #00A365;
+}
+
+
+.form-elements>button:hover {
+    background-color: rgb(234, 234, 234);
+}
+.custom-input-field {
+    width: 100%;
+}
+
+.custom-input-field input {
+    width: 80%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    padding: 5px 5px 5px 15px;
+}
+
+.custom-input-field input:focus-within {
+    outline: none;
+}
+
+.form-elements>a {
+    text-decoration: none;
+    color: #00A365;
+}
