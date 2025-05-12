@@ -1,0 +1,25 @@
+.logo-image {
+    width: 180px;
+}
+
+.right-arrow {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.restaurant-bg-color {
+    background-color: #0F0F0F; 
+}
+
+.restaurant-border-none {
+    border: none !important;
+}
+
+.restaurant-card-width {
+    width: 1250px !important;
+}
+
+.letter-spacing {
+    letter-spacing: 10px;
+}
